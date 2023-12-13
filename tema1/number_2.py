@@ -1,0 +1,6 @@
+x = input("Введите число x: ")
+y = input("Введите число y: ")
+x = int(x)
+y = int(y)
+result = (1 << x) | (1 << y)
+print(result)

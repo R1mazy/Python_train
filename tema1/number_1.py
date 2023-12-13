@@ -1,0 +1,5 @@
+inp_num = input("Введите шестизначное число: ")
+inp_num = int(inp_num)
+num1 = ((inp_num // 10000) % 10) + ((inp_num // 100) % 10 * 10) + (inp_num % 10 * 100)
+num2 = ((inp_num // 100000) * 100) + ((inp_num // 1000) % 10 * 10) + ((inp_num // 10) % 10)
+print(num1, num2, num1 * num2, sep = "&")
